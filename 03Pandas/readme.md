@@ -1,43 +1,34 @@
-# Introduction to Pandas
-
-You can think of pandas as an extremely powerful version of Excel, with a lot more features.
-pip install pandas
+# Pandas
 
 <ul>
-Introduction to Pandas
-<li>Series</li>
-<li>DataFrames</li>
-<li>Missing Data</li>
-<li>GroupBy</li>
-<li>Merging,Joining,and Concatenating
-Operations</li>
-<li>Data Input and Output</li>
+<li>The name "pandas" has a reference to both "panel data" and "python data analysis" and was created by wes mckinney in 2008. </li>
+<li>Pandas is a python library used for working with data sets. </li>
+<li>It has functions for analyzing , cleaning , exploring and manipulating data. </li>
+<li>Read and write data structures and different formats : csv , HTML , JSON , ZIP etc..</li>
+<li>It is used to effeciently take out required data or search for required data </li>
 </ul>
 
-# Series
+# Pandas Data Structures
 
-A Series is very similar to a NumPy array (in fact it is built on top of the NumPy array object). What differentiates the NumPy array from a Series, is that a Series can have axis labels, meaning it can be indexed by a label, instead of just a number location. It also doesn't need to hold numeric data, it can hold any arbitrary Python Object.
+<p> 1. Series :- 1D labeled arrays. </p>
+<p> 2. DataFrame :- 2D data structure with rows and columns similar to Tables </p>
+<p> 3. Pannel :- 3D container of data </p>
 
-# DataFrames
+# Installation
 
-DataFrames are the workhorse of pandas and are directly inspired by the R programming language. We can think of a DataFrame as a bunch of Series objects put together to share the same index. Let's use pandas to explore this topic!
+`pip install pandas `
+`import pandas as pd`
 
-# Missing Data
+# Importance of Pandas
 
-pandas also provides ways to handle Missing Data such as nan
+<ul>
+<li> Allows to analyze big data </li>
+<li> Clean messy data sets and make them readable </li>
+<li> Easy handling of missing data </li>
+</ul>
 
-# Groupby
+# Differences between CSV and XLS(exel) file formats:
 
-The groupby method allows you to group rows of data together and call aggregate functions
-
-# Merging, Joining, and Concatenating
-
-There are 3 main ways of combining DataFrames together: Merging, Joining and Concatenating.
-
-# Operations
-
-There are lots of operations with pandas that will be really useful to you, but don't fall into any distinct category
-
-# Data Input and Output
-
-Involves ways of Getting and setting data inside various files such as csv,html etc..
+<ul>
+<li> CSV files are plain text files and can be opened with any text editor.(Commma separated values) </li>
+<li> XLS file format is an Excel Sheet binary file format which has information about all the worksheets in a file </li>

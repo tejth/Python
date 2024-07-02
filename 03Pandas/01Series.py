@@ -1,35 +1,21 @@
-import numpy as np
-import pandas as pd
+import pandas as pd;
 
 
-#creating a series
-labels = ['a','b','c']
-my_list = [10,20,30]
-arr = np.array([10,20,30])
-d = {'a':10,'b':20,'c':30}
-print(pd.Series(data=my_list))
-print()
-print(pd.Series(data=my_list,index=labels))
-print()
-print(pd.Series(arr))
-print()
-print(
-pd.Series(arr,labels))
+#creating series using list
+x =[1,2,3,4,5]
+var = pd.Series(x,index=["a","b","c","d","e"],dtype="float",name="python")
+print(var)
 print()
 print()
 
-#A pandas Series can hold a variety of object types:
-# Even functions (although unlikely that you will use this)
-pd.Series([sum,print,len])
+#creating series using dictionary
+dic = {"a":[1,2,3,4,5],"b":[7,8,9,10]}
+var2 = pd.Series(dic)
+print(var2)
 print()
 print()
 
-
-
-#Using Index
-ser1 = pd.Series([1,2,3,4],index = ['USA', 'Germany','USSR', 'Japan']);
-ser2 = pd.Series([1,2,5,4],index = ['USA', 'Germany','Italy', 'Japan']);
-print(ser1)
-print(ser2);    
-print(ser1['USA'])
-print(ser1+ser2)
+# Concatinating series
+s1 = pd.Series(12,index=[1,2,3,4,5])
+s2=pd.Series(12,index=[1,2,3,4])
+print(s1+s2)
