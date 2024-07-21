@@ -19,6 +19,6 @@ Let's illustrate KNN with a classification example:
 
 3. Find K Nearest Neighbors: Select the K nearest neighbors based on the smallest distances. In this case, K = 3, so we choose the three closest fruits:
 
-   Closest: Apple (130 grams, sweetness 7)
-   Second closest: Orange (140 grams, sweetness 8)
-   Third closest: Apple (120 grams, sweetness 8)
+   Closest: Apple (130 grams, sweetness 7) </br>
+   Second closest: Orange (140 grams, sweetness 8)</br>
+   Third closest: Apple (120 grams, sweetness 8)</br>
