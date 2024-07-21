@@ -38,6 +38,6 @@ Random Forest builds multiple decision trees by: </br>
 Bootstrapping: Randomly selecting subsets of data (with replacement) to train each tree.</br>
 Random Feature Selection: Randomly selecting subsets of features for each split in each tree.
 Voting: For classification tasks, the final prediction is the mode of the predictions of all individual trees. For regression tasks, it's the average prediction.</br>
-->Use Case:
+## Use Case:
 Random Forests are robust and widely used for tasks where accuracy and interpretability are crucial.
 They excel in handling large datasets with many features, dealing with missing values, and maintaining performance without overfitting.
