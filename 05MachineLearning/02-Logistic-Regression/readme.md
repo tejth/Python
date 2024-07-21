@@ -13,7 +13,7 @@ Example: Continuing with our house price prediction example, if we use a very co
 </li>
 </ul>
 
-# Relation 
+## Relation 
 1.High Bias:
 Example: Imagine you have a toy car that always moves in a straight line, no matter what obstacle is in its path. If you use this toy car to navigate a maze with curves
 and turns, it will consistently fail to reach the goal because it's too simple to adapt to the maze's complexity. This is like a model with high bias—it's too basic to capture the nuances in the data.
