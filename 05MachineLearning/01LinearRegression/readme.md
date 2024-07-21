@@ -19,4 +19,4 @@ To create a linear regression model:
 
 5. Evaluate the Model: Use the test data to evaluate how well the model predicts house prices. Metrics like Mean Squared Error (MSE) or R-squared can be used to assess the model's accuracy.
 
-6. Prediction: Once trained and evaluated, the model can be used to predict the price of a new house (not seen during training) based on its size.
+6. Prediction: Once trained and evaluated, the model can be used to predict the price of a new house (not seen during training) based on its size. For scatter Plot Straight Lines are Preffered and for distPlot Residulas to be normally distriibuted.
