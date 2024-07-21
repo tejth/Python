@@ -1,7 +1,7 @@
 # Machine Learning
 <p>M.L is a way to automatically create models that can analyze data and make predictions or decisions without needing to be explicitly programmed to perform those tasks.</p>
-![Q](https://github.com/user-attachments/assets/28b0d803-0385-445b-893f-2e7a591c4f35)
-
+![Q](https://github.com/user-attachments/assets/f3139b85-26b6-4a28-9000-48194906a44d)
+                                                     
 # Types of ML algorithm
 <ul>
   <li>Supervised Learning :- Supervised Learning:
